@@ -1,0 +1,28 @@
+.productDesc{
+    margin: 20px 0;
+}
+
+.productDesc div {
+  display: flex;
+  gap: 10px;
+}
+
+.productDesc div button {
+  width: 180px;
+  height: 30px;
+  border: 2px solid grey;
+  background-color: transparent;
+  margin: 20px;
+}
+.productDesc .descBtn {
+  background-color: black;
+  color: white;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+}
+.desc p{
+    font-weight: 200;
+    margin: 10px 0;
+}

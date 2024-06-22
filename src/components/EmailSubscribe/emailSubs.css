@@ -1,0 +1,43 @@
+.emailSubsContainer {
+  width: 800px;
+  margin: 150px auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.emailSubsContainer h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.emailSubsContainer p {
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 50px;
+}
+
+.emailSubsContainer input {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(225, 225, 225);
+  border-radius: 40px;
+  outline: none;
+  width: 550px;
+  margin-top: 30px;
+  font-size: 15px;
+  height: 50px;
+}
+.emailSubsContainer button {
+  height: 50px;
+  width: 200px;
+  border: none;
+  margin-top: 30px;
+
+  position: absolute;
+  right: 420px;
+
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+}

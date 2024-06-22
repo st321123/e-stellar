@@ -1,0 +1,84 @@
+.categoryContainer {
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.categoryContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 50px 0;
+}
+
+.categoryBanner {
+  margin: 20px 0;
+}
+
+.categoryBanner img {
+  width: 100%;
+}
+
+.categoryProductsList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Added to center align items */
+  width: 100%; /* Ensure it takes the full width */
+  font-weight: 300;
+  margin-bottom: 20px; /* Added to create space below the sort bar */
+}
+
+.categoryProductsList div {
+  display: flex; /* Added to align the "Sort By" and select box in a row */
+  align-items: center; /* Center align the "Sort By" text and select box */
+  border: 1px solid rgb(161, 161, 161);
+  border-radius: 30px;
+  padding: 7px 20px;
+
+}
+
+.categoryProductsList p {
+  font-weight: 500;
+}
+
+.categoryProductsList span {
+  font-weight: 200;
+}
+
+.categoryProductsList select {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  color: #333;
+}
+
+.categoryLoad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.categoryLoad button {
+  padding: 17px 30px;
+  border: none;
+  font-size: 17px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
+
+/* Hover and Focus styles for select dropdown */
+.categoryProductsList select:hover,
+.categoryProductsList select:focus {
+  border-color: #555;
+}

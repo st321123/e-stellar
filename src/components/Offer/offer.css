@@ -1,0 +1,22 @@
+.offerContainer {
+  height: 400px;
+  width: 100%;
+  background-image: url(../../../public/data/shoe_banner_2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+  font-size: 40px;
+  justify-content: center;
+padding: 0px 50px;
+}
+
+.offerContainer button{
+    padding: 14px 24px;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 17px;
+}
